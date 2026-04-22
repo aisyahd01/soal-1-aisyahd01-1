@@ -11,7 +11,7 @@ void analisis (int *arr, int n, int *sum, int *max, int *idx, float *avg){
     *max=arr[0];
     *avg=0;
 
-    if (int i=0; i<n; i++){
+    for (int i=0; i<n; i++){
         *sum+=arr[i];
         if (arr[i]>*max){
             *max=arr[i];
