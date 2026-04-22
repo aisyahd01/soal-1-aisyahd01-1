@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-void Analisis (int *arr, int n, int *sum, int *max, int *idx, float *avg){
+void analisis (int *arr, int n, int *sum, int *max, int *idx, float *avg){
     *sum=0;
     *max=arr[0];
     *avg=0;
@@ -33,7 +33,7 @@ int main(){
     int sum, max, idx;
     float avg;
 
-    Analisis (arr, n, &sum, &max, &idx, &avg);
+    analisis (arr, n, &sum, &max, &idx, &avg);
     printf("SUM %d\n", sum);
     printf("AVG %.2f\n", avg);
     printf("MAX %d\n", max);
